@@ -45,6 +45,8 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
                 @{post.author.username}
               </p>
             </Link>
+
+            <p></p>
           </div>
         </div>
       </section>
