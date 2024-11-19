@@ -12,7 +12,7 @@ export type StartupTypeCard = Omit<Startup, "author"> & {
 
 const StartupCard = ({ post }: { post: StartupTypeCard }) => {
   //console the incoming post
-  console.log(post);
+  // console.log(post);
 
   const {
     _createdAt,
